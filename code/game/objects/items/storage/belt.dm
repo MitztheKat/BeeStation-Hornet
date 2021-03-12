@@ -235,6 +235,16 @@
 		/obj/item/extrapolator
 		))
 
+/obj/item/storage/belt/medical/cmo
+	name = "CMO's medical belt"
+
+/obj/item/storage/belt/medical/cmo/PopulateContents()
+	new /obj/item/scalpel/advanced(src)
+	new /obj/item/retractor/advanced(src)
+	new /obj/item/surgical_drapes(src)
+	new /obj/item/cautery(src)
+	new /obj/item/blood_filter(src)
+
 /obj/item/storage/belt/security
 	name = "security belt"
 	desc = "Can hold security gear like handcuffs and flashes."

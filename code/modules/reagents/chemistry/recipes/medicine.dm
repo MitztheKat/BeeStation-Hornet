@@ -311,3 +311,11 @@
 	results = list(/datum/reagent/medicine/hepanephrodaxon = 5)
 	required_reagents = list(/datum/reagent/medicine/carthatoline = 2, /datum/reagent/carbon = 2, /datum/reagent/lithium = 1)
 	required_catalysts = list(/datum/reagent/toxin/plasma = 5)
+
+///new chem///
+
+datum/chemical_reaction/insulin
+	name = "Insulin"
+	id = "insulin"
+	results = list(/datum/reagent/medicine/insulin = 3)
+	required_reagents = list(/datum/reagent/medicine/antitoxin = 1, /datum/reagent/consumable/sugar = 1, /datum/reagent/carbon = 1)
