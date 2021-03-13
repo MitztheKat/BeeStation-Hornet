@@ -50,17 +50,17 @@ Exclude =
 Edit =
 
 Name = Trial Admin
-Include = @ SPAWN VAREDIT BAN
+Include = @ SPAWN VAREDIT SOUND POLL FUN
 Exclude =
 Edit =
 
 Name = Badmin
-Include = @ POSSESS POLL BUILD SERVER FUN
+Include = @ POSSESS BUILD SERVER
 Exclude =
 Edit =
 
 Name = Admin
-Include = @ STEALTH SOUND DEBUG
+Include = @ STEALTH DEBUG BAN
 Exclude =
 Edit =
 
@@ -79,18 +79,13 @@ Include = EVERYTHING
 Exclude =
 Edit = EVERYTHING
 
-Name = Lurker
-Include = EVERYTHING
-Exclude =
-Edit = EVERYTHING
-
 Name = Headmin
 Include = EVERYTHING
 Exclude =
 Edit = EVERYTHING
 
 Name = Coder
-Include = DEBUG VAREDIT SERVER SPAWN POLL
+Include = DEBUG VAREDIT SERVER SPAWN POLL FUN
 Exclude = AUTOADMIN
 Edit =
 

@@ -15,7 +15,7 @@ $include resources.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'beestation' with the name of your choice.
-#@SERVERNAME beestation
+@SERVERNAME Demonite13
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 #@SERVERSQLNAME ss13newbs
@@ -24,13 +24,13 @@ $include resources.txt
 STATIONNAME Space Station 13
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
-#HUB
+HUB
 
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
-LOBBY_COUNTDOWN 180
+LOBBY_COUNTDOWN 300
 
 ## Round End Time: This is the amount of time after the round ends that players have to murder death kill each other.
-ROUND_END_COUNTDOWN 90
+ROUND_END_COUNTDOWN 120
 
 #USING_DISCORD
 
@@ -71,7 +71,7 @@ ENABLE_LOCALHOST_RANK
 #USE_ACCOUNT_AGE_FOR_JOBS
 
 ## Unhash this to track player playtime in the database. Requires database to be enabled.
-USE_EXP_TRACKING
+#USE_EXP_TRACKING
 ## Unhash this to enable playtime requirements for head jobs.
 USE_EXP_RESTRICTIONS_HEADS
 ## Unhash this to override head jobs' playtime requirements with this number of hours.
@@ -188,10 +188,10 @@ VOTE_DELAY 6000
 VOTE_PERIOD 600
 
 ## prevents dead players from voting or starting votes
-NO_DEAD_VOTE
+#NO_DEAD_VOTE
 
 ## players' votes default to "No vote" (otherwise,  default to "No change")
-DEFAULT_NO_VOTE
+#DEFAULT_NO_VOTE
 
 ## disable abandon mob
 NORESPAWN
@@ -250,7 +250,7 @@ WIKIURL https://wiki.beestation13.com/view
 RULESURL http://beestation13.com/rules?server=bs_golden
 
 ## Github address
-GITHUBURL https://www.github.com/beestation/beestation-hornet
+GITHUBURL https://github.com/MitztheKat/BeeStation-Hornet
 
 ## Label to tag ingame-registered issues with.
 ## Uncomment this to enable them.
@@ -318,7 +318,7 @@ TICKLAG 0.5
 #FPS 20
 
 ## Comment this out to disable automuting
-AUTOMUTE_ON
+#AUTOMUTE_ON
 
 ## Uncomment this to let players see their own notes (they can still be set by admins only)
 SEE_OWN_NOTES
@@ -355,7 +355,7 @@ NOTIFY_NEW_PLAYER_AGE 0
 
 ## Notify admins when a player connects if their byond account was created in the last X days
 ## Requires database
-NOTIFY_NEW_PLAYER_ACCOUNT_AGE 1
+NOTIFY_NEW_PLAYER_ACCOUNT_AGE 12
 
 ## Notify the irc channel when a new player makes their first connection
 ##	Requres database
@@ -373,7 +373,7 @@ NOTIFY_NEW_PLAYER_ACCOUNT_AGE 1
 #PANIC_SERVER_NAME [Put the name here]
 
 ## Uncomment to have the changelog file automatically open when a user connects and hasn't seen the latest changelog
-AGGRESSIVE_CHANGELOG
+#AGGRESSIVE_CHANGELOG
 
 ## Comment this out if you've used the mass conversion sql proc for notes or want to stop converting notes
 AUTOCONVERT_NOTES
@@ -391,10 +391,10 @@ MAPROTATION
 ## Map voting
 ## Allows players to vote for their preffered map
 ## When it's set to zero, the map will be randomly picked each round
-PREFERENCE_MAP_VOTING 0
+PREFERENCE_MAP_VOTING 1
 
 ## Starts a map vote at the end of rounds
-#AUTOMAPVOTE
+AUTOMAPVOTE
 
 ## Map rotate chance delta
 ## This is the chance of map rotation factored to the round length.
@@ -494,7 +494,7 @@ MENU_SQUARE_VIEW
 
 ## Name your perpetual currency here
 ## This is used within the metashop and earned by playing the game.
-METACURRENCY_NAME BeeCoin
+METACURRENCY_NAME Demonite
 
 ## Grant metacurrency
 ## Comment this out if you don't want players to earn metacurrency
